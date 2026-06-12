@@ -13,7 +13,7 @@ const Country = ({ country, handleVisitedCountries }) => {
             <div className={`country ${isVisited && 'visitedCountry'}`}>
                 <div>
 
-                    <img src={country.flags?.flags?.png} alt={country.flags.flags.alt} />
+                    <img src={country.flags?.flags?.svg} alt={country.flags.flags.alt} width={'150px'}/>
                 </div>
                 <div>
 
